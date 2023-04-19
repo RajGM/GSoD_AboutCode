@@ -72,6 +72,40 @@ Mentors
 </li> </ul> </li> </li> </ul> 
 </div>
 
+<div >
+
+<h3>Why use PurlDB</h3>
+
+PurlDB is a tool that uses a database of package metadata to help identify the source and licensing of open source components in your project. This database is created by analyzing package metadata from various package management systems, such as PyPI, NPM, Rubygems, and Maven. Once the database has been created, you can use PurlDB to analyze the open source components in your project and determine their source and licensing information.
+
+Here are some specific ways that PurlDB can be useful:
+
+License compliance: PurlDB can help you ensure that your project is in compliance with licensing requirements. It does this by analyzing the license information associated with the open source components in your project and providing you with a report that shows which licenses are being used and whether they are compatible with each other.
+
+Security: PurlDB can help you identify any known security vulnerabilities associated with the open source components in your project. It does this by analyzing the version information of the components and checking them against known security vulnerabilities.
+
+Component management: PurlDB can help you manage your project's open source components by identifying outdated or unsupported components that need to be updated or replaced. It does this by analyzing the version information of the components and comparing it to the latest version information in the database.
+
+Transparency: PurlDB can help you provide transparency and accountability in your project by allowing you to easily share information about the open source components you are using. It does this by providing a report that shows the source and licensing information for all of the components in your project.
+
+Overall, PurlDB is a powerful tool that can help you manage and analyze the open source components in your project. By providing information about licensing, security, and component management, PurlDB can help you ensure compliance, security, and transparency in your project.
+
+<h3>How does PurlDB works?</h3>
+
+PurlDB works by matching and mining package metadata from various package management systems, such as PyPI, NPM, Rubygems, and Maven. This package metadata typically includes information such as the name and version of the package, as well as its dependencies, licensing information, and other relevant details.
+
+Here is a more detailed explanation of how PurlDB works:
+
+Matching packages: PurlDB uses a set of matching rules to identify packages across different package management systems. These rules are designed to identify packages that have the same or similar names, versions, and other identifying information.
+
+Mining package metadata: Once a package has been identified, PurlDB mines its metadata to extract information such as its dependencies, licensing information, and other relevant details. This metadata is then stored in a database.
+
+Creating a database of packages: PurlDB uses this matching and mining process to create a database of packages that can be used to analyze open source components in projects. This database can be queried to retrieve information about specific packages, or it can be used to analyze the components in a project to identify licensing, security, or other issues.
+
+
+</div>
+
+
 
 ## Timeline
 
